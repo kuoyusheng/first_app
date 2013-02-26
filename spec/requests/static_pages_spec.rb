@@ -10,7 +10,7 @@ describe "Static pages" do
     end
     it "should have the title 'Home'"do
      	visit '/static_pages/home'
-     	page.should have_selector('title', :text => "Tutorial|Home")
+     	page.should have_selector('title', :text => "Tutorial")
     end
   end
   describe "Help_page" do
